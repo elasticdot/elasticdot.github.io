@@ -1,9 +1,10 @@
 ElasticDot
 =======
 
-FElasticDot is a Platform As a Service built for WordPress.
+ElasticDot is a Platform As a Service built for WordPress.
 
 Use git to push WordPress Apps to ElasticDot with ease. 
+
 We'll configure Dots, run WordPress, handle databases, cache, and servers so you can focus on WordPress development. 
 
  * No server-side components
@@ -13,7 +14,7 @@ We'll configure Dots, run WordPress, handle databases, cache, and servers so you
  * Gorgeous default theme (and it's responsive)
  * Just create an HTML file and deploy!
 
-*Current version: [mark 3][dist]*
+*Current version: [mark 3]*
 
 
 Getting started
