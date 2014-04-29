@@ -27,35 +27,8 @@ you're all good to go.
 
 *In short: just download this file and upload it somewhere.*
 
-[Download template >][template]
 
-``` html
-<html>
-  <head>
-    <!-- Flatdoc -->
-    <script src='http://rstacruz.github.io/flatdoc/v/0.8.1/legacy.js'></script>
-    <script src='http://rstacruz.github.io/flatdoc/v/0.8.1/flatdoc.js'></script>
-
-    <!-- Flatdoc theme (optional) -->
-    <link  href='http://rstacruz.github.io/flatdoc/v/0.8.1/theme-white/style.css' rel='stylesheet'>
-    <script src='http://rstacruz.github.io/flatdoc/v/0.8.1/theme-white/script.js'></script>
-
-    <!-- Initializer -->
-    <script>
-      Flatdoc.run({
-        fetcher: Flatdoc.github('USER/REPO')
-      });
-    </script>
-  </head>
-
-  <body role='flatdoc'>
-    <div role='flatdoc-menu'></div>
-    <div role='flatdoc-content'></div>
-  </body>
-</html>
-```
-
-### Via GitHub
+### What is a PaaS?
 
 To fetch a Github Repository's readme file, use the `Flatdoc.github` fetcher.
 This will fetch the Readme file of the repository's default branch.
@@ -162,10 +135,10 @@ up as buttons.
 
 > [View in GitHub >][project]
 
-Customizing
+Platform Overview
 ===========
 
-Basic
+Dots
 -----
 
 ### Theme options
@@ -220,8 +193,8 @@ $(document).on('flatdoc:ready', function() {
 });
 ```
 
-Full customization
-------------------
+Add-ons
+-------
 
 You don't have to be restricted to the given theme. Flatdoc is just really one
 `.js` file that expects 2 HTML elements (for *menu* and *content*). Start with
@@ -248,6 +221,16 @@ the blank template and customize as you see fit.
   </body>
 </html>
 ```
+
+Templates
+---------
+
+You don't have to be restricted to the given theme. Flatdoc is just really one
+`.js` file that expects 2 HTML elements (for *menu* and *content*). Start with
+the blank template and customize as you see fit.
+
+
+
 Misc
 ====
 
