@@ -1,9 +1,10 @@
-Flatdoc
+ElasticDot
 =======
 
-Flatdoc is a small JavaScript file that fetches Markdown files and renders them
-as full pages. Essentially, it's the easiest
-way to make open source documentation from *Readme* files.
+FElasticDot is a Platform As a Service built for WordPress.
+
+Use git to push WordPress Apps to ElasticDot with ease. 
+We'll configure Dots, run WordPress, handle databases, cache, and servers so you can focus on WordPress development. 
 
  * No server-side components
  * No build process needed
@@ -12,9 +13,8 @@ way to make open source documentation from *Readme* files.
  * Gorgeous default theme (and it's responsive)
  * Just create an HTML file and deploy!
 
-*Current version: [0.8.1][dist]*
+*Current version: [mark 3][dist]*
 
-[![Build Status](https://travis-ci.org/rstacruz/flatdoc.png?branch=gh-pages)](https://travis-ci.org/rstacruz/flatdoc)
 
 Getting started
 ---------------
